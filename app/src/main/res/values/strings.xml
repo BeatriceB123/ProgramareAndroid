@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="ListView">ListView</string>
+    <string name="ListViewID">ListViewID</string>
+    <string name="aici_apar_detaliile_despre_produs">Aici apar detaliile despre produs</string>
+</resources>

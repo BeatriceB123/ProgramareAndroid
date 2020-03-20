@@ -6,4 +6,39 @@
     <string name="ListView">ListView</string>
     <string name="ListViewID">ListViewID</string>
     <string name="aici_apar_detaliile_despre_produs">Aici apar detaliile despre produs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">settings</string>
+    <string name="cosul_dumneavoastra_de_cumparaturi">Cosul dumneavoastra de cumparaturi</string>
+    <string name="text_filtru_intent">Text Filtru Intent</string>
+    <string name="acesta_este_contul">Acesta este contul</string>
+    <string name="test_dialog">Test dialog</string>
+    <string name="numar_de_telefon">Numar de telefon</string>
+    <string name="adresa">Adresa</string>
+    <string name="cod_postal">Cod postal</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="contul_meu">Contul meu</string>
+    <string name="cos">Cos</string>
+    <string name="catalog">Catalog</string>
+    <string name="numemeniu">NumeMeniu</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="textul_va_fi_incarcat_in_casetutele_de_mai_sus">Textul va fi incarcat in casetutele de mai sus</string>
+    <string name="incarca">Incarca</string>
+    <string name="intent_filters_page">Intent Filters page.</string>
 </resources>

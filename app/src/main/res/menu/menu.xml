@@ -2,22 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title = "NumeMeniu"
+        android:title = "@string/numemeniu"
         android:id = "@+id/numeIdMeniu"
         android:icon = "@drawable/ic_ac_unit_black_24dp"
         app:showAsAction = "ifRoom"
         />
     <item
-        android:title = "Catalog"
+        android:title = "@string/catalog"
         android:id = "@+id/numeOptiunea1"
         />
     <item
-        android:title = "Cos"
+        android:title = "@string/cos"
         android:id = "@+id/numeOptiunea2"
         />
     <item
-        android:title = "Contul meu"
+        android:title = "@string/contul_meu"
         android:id = "@+id/numeOptiunea3"
         />
-
+    <item
+        android:title = "Settings"
+        android:id = "@+id/settings"
+        />
 </menu>

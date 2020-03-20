@@ -25,6 +25,9 @@ public class CosActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.settings:
+                openSettingsMenu();
+                return true;
             case R.id.numeOptiunea1:  // pagina principala
                 openMainMenu();
                 return true;
@@ -36,6 +39,11 @@ public class CosActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);  // crapa fara asta
         }
+    }
+
+    public void openSettingsMenu() {
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
     }
 
     public void openMainMenu() {

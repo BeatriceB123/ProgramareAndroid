@@ -23,4 +23,8 @@
         android:title = "Settings"
         android:id = "@+id/settings"
         />
+    <item
+        android:title = "@string/sensoractivity"
+        android:id = "@+id/sensoractivity"
+        />
 </menu>

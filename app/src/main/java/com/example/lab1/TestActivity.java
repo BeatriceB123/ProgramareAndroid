@@ -24,6 +24,9 @@ public class TestActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.sensoractivity:
+                openSensorActivity();
+                return true;
             case R.id.numeOptiunea1:
                 openCatalogMenu();
                 return true;
@@ -36,6 +39,11 @@ public class TestActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void openSensorActivity() {
+        Intent intent = new Intent(this, SensorActivity.class);
+        startActivity(intent);
     }
 
     public void openCatalogMenu() {

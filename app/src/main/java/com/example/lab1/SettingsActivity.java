@@ -46,6 +46,9 @@ public class SettingsActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.sensoractivity:
+                openSensorActivity();
+                return true;
             case R.id.settings:
                 openSettingsMenu();
                 return true;
@@ -60,6 +63,11 @@ public class SettingsActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void openSensorActivity() {
+        Intent intent = new Intent(this, SensorActivity.class);
+        startActivity(intent);
     }
 
     public void openSettingsMenu() {

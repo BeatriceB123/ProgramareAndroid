@@ -39,10 +39,19 @@ public class CosActivity extends AppCompatActivity {
             case R.id.numeOptiunea3:  // cont -> sunt aici
                 openContMenu();
                 return true;
+            case R.id.cameraactivity:
+                openCameraMenu();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);  // crapa fara asta
         }
     }
+
+    public void openCameraMenu() {
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
+    }
+
     public void openSensorActivity() {
         Intent intent = new Intent(this, SensorActivity.class);
         startActivity(intent);

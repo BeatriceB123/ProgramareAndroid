@@ -27,4 +27,8 @@
         android:title = "@string/sensoractivity"
         android:id = "@+id/sensoractivity"
         />
+    <item
+        android:title = "@string/cameraactivity"
+        android:id = "@+id/cameraactivity"
+        />
 </menu>

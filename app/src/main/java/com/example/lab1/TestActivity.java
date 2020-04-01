@@ -36,9 +36,17 @@ public class TestActivity extends AppCompatActivity {
             case R.id.numeOptiunea3:
                 openAccountMenu();
                 return true;
+            case R.id.cameraactivity:
+                openCameraMenu();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void openCameraMenu() {
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
     }
 
     public void openSensorActivity() {
